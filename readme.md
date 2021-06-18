@@ -18,7 +18,7 @@ Il s'agira d'une application exécutable à la demande visant à récupérer les
 ## Guide d'installation  :
 ```
 ```
-## Installez UN IDE :
+## Installez votre environnement virtuel de développent :
 ```
 ```
 Clonez le  Repository ($ git clone https://github.com/Call-X/P02_webscraping.py/blob/main/main.py)
@@ -28,8 +28,9 @@ Afin d'installer l'environnement ( depuis le repository ) cliquez sur main.py
 ##Activation du programme : 
 ```
 ```
-Afin Dans votre terminal executez  $ pip install -r requirement.txt
- ```
+Afin d'activer votre environnement, dans votre terminal executez la commande $ pip install -r requirement.txt.
+Ceci aura pour effet d'installer les librairies dont dépend l'application
+```
 ```
 ## Comment l'utiliser ? :
 ```
