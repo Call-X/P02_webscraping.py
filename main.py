@@ -54,6 +54,7 @@ def extraction(page_url):
         print(book_review_scraper, '\n\n')
         return book_review_scraper
 
+# EXTRACTION
 # définition of a fonction which will look for the next page
 def get_next_page(url, soup):
 
@@ -105,7 +106,7 @@ def folder_creation(directory):
     except OSError:
         print('ERROR while trying to create :' + directory)
 
-# TRANSFORMATION
+#LOADING
 # définition of the fonction which will load the book's picture
 def download_image_product(img_url, book_title, category):
     req = requests.get(img_url)
@@ -137,7 +138,8 @@ def write_file_to_jpg_csv(books_info):
         writer.writerows(books_info)
 
 
-#EXTRACTION
+# EXTRACTION
+# LOADING
 #définition of the fonction which will look for books from catégories through pages
 def books_infos_through_categories(li):
     req = requests.get(li)
