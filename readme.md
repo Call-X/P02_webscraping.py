@@ -43,7 +43,7 @@ L'ensemble des fichiers CSV seront rangés dans le dossier "books_informations" 
 ## Contributeur :
 ```
 ```
--Emiile MIATH -
+-Emile MIATH -
 ```
 ```
 ## le programme est opérationnel : 
