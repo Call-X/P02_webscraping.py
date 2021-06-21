@@ -7,7 +7,7 @@ import os
 
 
 
-# EXTRACTION
+
 def extraction(page_url):
     book_review_scraper = {}
     # bring back url
@@ -54,7 +54,7 @@ def extraction(page_url):
         print(book_review_scraper, '\n\n')
         return book_review_scraper
 
-# EXTRACTION
+
 # définition of a fonction which will look for the next page
 def get_next_page(url, soup):
 
@@ -69,7 +69,7 @@ def get_next_page(url, soup):
     else:
         return None
 
-# EXTRACTION
+
 # définition of the fonction navigate
 # looking for books lists and extract informations in each page
 def navigate(page_url):
@@ -97,7 +97,7 @@ def navigate(page_url):
 
     return books_info
 
-#LOADING
+
 # définition of the folders creation
 def folder_creation(directory):
     try:
@@ -106,7 +106,7 @@ def folder_creation(directory):
     except OSError:
         print('ERROR while trying to create :' + directory)
 
-#LOADING
+
 # définition of the fonction which will load the book's picture
 def download_image_product(img_url, book_title, category):
     req = requests.get(img_url)
@@ -116,7 +116,7 @@ def download_image_product(img_url, book_title, category):
             f_image.write(req.content)
             # f_image.close()
 
-# TRANSFORMATION
+
 # définition of the fonction will tranform and write the books informations into CSV and jpg
 def write_file_to_jpg_csv(books_info):
     rows = []
@@ -138,8 +138,8 @@ def write_file_to_jpg_csv(books_info):
         writer.writerows(books_info)
 
 
-# EXTRACTION
-# LOADING
+
+
 #définition of the fonction which will look for books from catégories through pages
 def books_infos_through_categories(li):
     req = requests.get(li)
@@ -161,7 +161,7 @@ def books_infos_through_categories(li):
 
 
 
-#LOADING
+
 if __name__ == '__main__':
     folder_creation('./books_images')
     folder_creation('./books_info')
