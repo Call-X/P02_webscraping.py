@@ -14,20 +14,22 @@ Il s'agira d'une application exécutable à la demande visant à récupérer les
 
 ## Guide d'installation  :
 
-téléchargement et installation de python 3 requise :
+téléchargement et installation de python requise :
 https://www.python.org/
 
 ## Installez le projet :
-Dans votre environnement windows ,executez les commandes suivantes votre terminale
+Dans votre environnement windows ,executez les commandes suivantes dans votre terminale
+Clonez le Repository 
 ```
-Cloner le Repository : git clone https://github.com/Call-X/P02_webscraping.py
+git clone https://github.com/Call-X/P02_webscraping.py
 ```
-exécutez la commande cd suivis du nom de votre fichier destinataire afin de vous placer à la racine du dossier
+exécutez la commande <cd> suivis du nom de votre fichier destinataire dans lequel vous venez de cloner le repository 
+afin de vous placer à la racine du projet
 
 ## Afin d'installer votre environnement (ces commandes fonctionnent aussi sous Linux) :
 
-Dans ce même terminale exécutez les commandes suivantes :
-(pour certains environnements source est inutile)
+A la racine du projet, exécutez les commandes suivantes :
+(pour certains environnements, la commande source est inutile)
 ```
 python3 -m venv venv
 source venv/bin/activate 
@@ -36,9 +38,9 @@ pip install -r requirements.txt
 Ceci aura pour effet d'installer les librairies dont dépend l'application
 
 ## Comment l'utiliser ? :
-Enfin ,
+Enfin, vous pourrez collecter vos données en executant la commande:
 ```
-Vous pourrez collecter vos données en executant la commande: python main.py 
+python main.py 
 ```
 les images sauvegardées se verront rangées dans le dossier "books_images".
 L'ensemble des fichiers CSV seront rangés dans le dossier "books_informations" .
@@ -54,3 +56,6 @@ Afin de le lancer cliquer sur run et attendre environ 20 à 25 minutes.
 # Licence & Copyright :
 
 Aucun copyrights
+
+https://www.python.org/
+
