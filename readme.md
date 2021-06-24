@@ -47,7 +47,7 @@ L'ensemble des fichiers CSV seront rangés dans le dossier "books_informations" 
 
 ## le programme est opérationnel :
 
-Afin de le lancer cliquer sur run et attendre environ 20 à 25 minutes.
+Attendre environ 20 à 25 minutes.
 
 ## Contributeur :
 
