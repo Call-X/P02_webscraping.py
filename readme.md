@@ -14,18 +14,20 @@ Il s'agira d'une application exécutable à la demande visant à récupérer les
 
 ## Guide d'installation  :
 
-## Afin d'installer votre environnement (ces commandes fonctionnent aussi sous Linux) :
+## Installez le projet :
 ```
-Dans votre environnement ,executez la commande suivante : 
+Cloner le Repository : git clone https://github.com/Call-X/P02_webscraping.py/blob/main/main.py
+```
+## Afin d'installer votre environnement (ces commandes fonctionnent aussi sous Linux) :
+
+Dans votre environnement ,executez les commandes suivante dans le dossier   : 
+```
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 Ceci aura pour effet d'installer les librairies dont dépend l'application
 ```
-## Installez le projet :
-```
-Cloner le Repository : git clone https://github.com/Call-X/P02_webscraping.py/blob/main/main.py
-```
+
 ## Comment l'utiliser ? :
 ```
 Vous pourrez collecter vos données en executant la commande: python main.py 
